@@ -13,5 +13,9 @@ linux 使用
 - df -h  :查看硬盘空间
 - fdisk -l 可查看有没有数据盘（ 没有/dev/vdb，则无数据盘，无需分区挂载）
 - mkdir  : 创建文件夹
+- rm -rf /var/log/httpd/access  :文件删除
+- -r 就是向下递归，不管有多少级目录，一并删除
+- -f 就是直接强行删除，不作任何提示的意思
 - apt-get install mongodb :安装mongodb
 - sudo apt-get --purge remove mongodb mongodb-clients mongodb-server :卸载MongoDB
+- unzip wwwroot.zip :解压  wwwroot.zip
